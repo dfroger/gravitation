@@ -1,0 +1,7 @@
+# gravitation configuration for develop mode (build but no install)
+
+# Import the target
+include("@GRAVITATION_BINARY_DIR@/GRAVITATION_LIBRARY.cmake")
+
+set(GRAVITATION_LIBRARIES gravitation)
+set(GRAVITATION_INCLUDE_DIRS "@GRAVITATION_SOURCE_DIR@/libgravitation")

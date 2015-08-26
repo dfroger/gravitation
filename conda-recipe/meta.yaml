@@ -1,0 +1,25 @@
+package:
+  name: gravitation
+  version: 0.1.0
+
+source:
+  path: ..
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - cmake
+    - gcc ==4.8.5
+  run:
+    - libgcc
+
+test:
+  commands:
+    - helloworld
+
+about:
+  home: https://github.com/dfroger/gravitation
+  license: GPL
+  summary: Example of library depending on m library (for debug purpose)

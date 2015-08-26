@@ -1,0 +1,10 @@
+# This file is in `configdir` directory.
+# `configdir` directory is $PREFIX/share/gravitation
+get_filename_component(_configdir "${CMAKE_CURRENT_LIST_FILE}" PATH)
+get_filename_component(_prefix "${_configdir}/@GRAVITATION_PREFIX_FROM_CONFIGDIR@" ABSOLUTE)
+
+# Import the target
+include("${_configdir}/GRAVITATION_LIBRARY.cmake")
+
+set(GRAVITATION_LIBRARIES gravitation)
+set(GRAVITATION_INCLUDE_DIRS "${_prefix}/include")
