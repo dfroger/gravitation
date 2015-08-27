@@ -1,9 +1,9 @@
 # gravitation
 
-## Intro
-
 Bellow is a (partial) copy of the discussion on the `conda@continuum.io`
 mailing list.
+
+## Intro
 
 I'm trying to package [ITK libraries](https://github.com/heimdali/heimdali/tree/2d9f12c7db78d7b8b25d7b573880497dbb8e032b/conda-recipe/itk)
 on [Centos 5.11](https://github.com/dfroger/conda-build-env/tree/a878cc82a2d77c353a15c5e11e34505caa383e26),
