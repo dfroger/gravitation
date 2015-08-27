@@ -15,10 +15,6 @@ requirements:
   run:
     - libgcc
 
-test:
-  commands:
-    - helloworld
-
 about:
   home: https://github.com/dfroger/gravitation
   license: GPL
